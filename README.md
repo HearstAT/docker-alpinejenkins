@@ -1,4 +1,4 @@
-docker-alpinejenkins
+hearstat/alpine-jenkins
 ================
 
 Uses the Alpine image and sets up a container with [Jenkins](http://jenkins-ci.org/) installed.
