@@ -5,13 +5,13 @@ Uses the Alpine image and sets up a container with [Jenkins](http://jenkins-ci.o
 
 Just intended to a small master image to avoid bloated containers. Mostly intended to leverage other containers as slaves.
 
-## Our Slave List
+# Our Slave List
 
 Imagine a list of links here that go to other docker container repo that have really specific and interesting purposes!
 
-## Build Info
+# Build Info
 
-# Plugins
+## Plugins
 * greenballs:latest
 * copyartifact:latest
 * compress-artifacts:latest
@@ -47,11 +47,11 @@ Imagine a list of links here that go to other docker container repo that have re
 * embeddable-build-status:latest
 * docker-plugin:latest
 
-# Ports
+## Ports
 * Jenkins: 8080 Container Side
 * Slaves: 50000 Container Side
 
-# Installed Packages
+## Installed Packages
 * gnupg
 * tar
 * git
@@ -59,7 +59,7 @@ Imagine a list of links here that go to other docker container repo that have re
 * curl
 * wget
 
-## Usage
+# Usage
 
 ```
 docker run -p 8080:8080 -p 50000:50000 jenkins
@@ -78,7 +78,7 @@ You can also use a volume container:
 docker run --name myjenkins -p 8080:8080 -p 50000:50000 -v /var/lib/jenkins jenkins
 ```
 
-## Building
+# Building
 
 To build the image, do the following:
 
