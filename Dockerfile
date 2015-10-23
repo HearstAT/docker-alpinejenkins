@@ -14,6 +14,7 @@ RUN apk update
 RUN apk add \
     gnupg \
     tar \
+    ruby \
     git \
     zip \
     curl \
