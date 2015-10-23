@@ -1,3 +1,9 @@
+greenballs:latest
+copyartifact:latest
+compress-artifacts:latest
+copy-to-slave:latest
+ssh:latest
+slave-status:latest
 ansicolor:latest
 antisamy-markup-formatter:latest
 build-pipeline-plugin:latest
@@ -22,3 +28,7 @@ run-condition:latest
 scm-api:latest
 ssh-credentials:latest
 ssh-slaves:latest
+s3:latest
+disk-usage:latest
+embeddable-build-status:latest
+docker-plugin:latest
