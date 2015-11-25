@@ -1,4 +1,11 @@
 greenballs:latest
+token-macro:latest
+run-condition:latest
+envinject:latest
+conditional-buildstep:latest
+durable-task:latest
+jquery:latest
+aws-java-sdk:latest
 copyartifact:latest
 compress-artifacts:latest
 copy-to-slave:latest
@@ -9,7 +16,6 @@ antisamy-markup-formatter:latest
 build-pipeline-plugin:latest
 chef:latest
 chef-identity:latest
-conditional-buildstep:latest
 credentials:latest
 git:latest
 gitbucket:latest

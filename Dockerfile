@@ -1,9 +1,9 @@
-FROM cgswong/java:orajdk8
+FROM hearstat/alpine-java:openjdk8
 
 MAINTAINER Hearst Automation Team "atat@hearst.com"
 
 # Environment Variables
-ENV JENKINS_VERSION 1.625.1
+ENV JENKINS_VERSION 1.625.2
 ENV JENKINS_HOME /var/lib/jenkins
 ENV JENKINS_SHARE /usr/share/jenkins
 ENV JENKINS_SLAVE_AGENT_PORT 50000
