@@ -1,4 +1,4 @@
-FROM hearstat/alpine-java:openjdk8
+FROM hearstat/alpine-java:jdk8
 
 MAINTAINER Hearst Automation Team "atat@hearst.com"
 
